@@ -1,0 +1,45 @@
+/* Selector de atributo exacto */
+input[type="text"] {
+    background-color: lightyellow;
+    border: 2px solid orange;
+    padding: 5px;
+  }
+  
+  /* Selector de presencia de atributo */
+  img[alt] {
+    border: 3px solid blue;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  
+  /* Selector de atributo que empieza con un valor */
+  a[href^="https"] {
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* Selector de atributo que termina con un valor */
+  a[href$=".pdf"] {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  /* Selector de atributo que contiene un valor */
+  div[class*="card"] {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 15px 0;
+  }
+  
+  /* Selector de palabra separada por espacio en atributo */
+  [class~="importante"] {
+    background-color: lightblue;
+    font-size: 20px;
+  }
+  
+  /* Selector de atributo con valor de lista */
+  [lang|="es"] {
+    text-decoration: underline;
+    font-weight: bold;
+  }
